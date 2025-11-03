@@ -1,7 +1,7 @@
 # rbonsai
 
-This is a port of `cbonsai` to rust. Check out the original
-[here](https://gitlab.com/jallbrit/cbonsai)
+This is an extension and slight refactor of `rbonsai`. Check out the original
+[here](https://github.com/roberte777/rbonsai), which is a port of [cbonsai](https://gitlab.com/jallbrit/cbonsai) to rust.
 
 `rbonsai` is a bonsai tree generator, written in Rust using crossterm. It creates
 an ascii bonsai tree that is colored using your terminals color scheme. It is
@@ -51,18 +51,4 @@ rbonsai -p
 ## Missing Features
 
 `rbonsai` does not have support for loading or saving to a file as of yet. It
-also does not have support for providing your of leave characters.
-
-## Why Write This?
-
-I had some issues installing cbonsai on one of my machines. I thought it was a
-cool algorithm and wrote this to learn more about it. Additionally, I wanted to
-use Crossterm for something to learn more about how it works. I also have plans 
-for some newer features that I will add as soon as I complete the port of the 
-original.
-
-## Credits
-
-This project is a port of [`cbonsai`](https://gitlab.com/jallbrit/cbonsai) into
-Rust. Check it out if you want some of the missing features or would rather use
-the original.
+also does not have support for providing your leaf characters.
